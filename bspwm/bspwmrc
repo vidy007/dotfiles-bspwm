@@ -29,7 +29,7 @@ bspc rule -a Screenkey manage=off
 
 picom &
 polybar &
-feh --bg-scale ~/gruvbox_grid.png &
+feh --bg-scale ./gruvbox_grid.png &
 copyq &
 setxkbmap -model pc105 -layout us,ru -option grp:alt_shift_toggle &
 spoofdpi &
