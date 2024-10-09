@@ -1,2 +1,3 @@
-# dotfiles-bspwm
-vidy's dots for bspwm
+# Screenshots
+![](docs/one.png)
+![](docs/two.png)
