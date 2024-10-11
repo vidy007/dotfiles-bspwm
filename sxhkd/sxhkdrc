@@ -52,7 +52,7 @@ super + g
 
 # set the window state
 super + {f,t}
-	bspc node -t {~fullscreen,~tiled}
+	bspc node -t {fullscreen,tiled}
 
 super + {_,shift + space}
 	bspc node focused -t \~floating

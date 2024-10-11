@@ -13,6 +13,9 @@ bspc config top_padding 140
 bspc config right_padding 140
 bspc config left_padding 140
 bspc config bottom_padding 140
+bspc config center_pseudo_tiled         true
+
+for side in top right left bottom; do bspc config ${side}_monocle_padding -86; done
 
 bspc config split_ratio          0.52
 bspc config borderless_monocle   false
@@ -29,7 +32,7 @@ bspc rule -a Screenkey manage=off
 
 picom &
 polybar &
-feh --bg-scale ./gruvbox_grid.png &
+feh --bg-scale ~/gruvbox_grid.png &
 copyq &
 setxkbmap -model pc105 -layout us,ru -option grp:alt_shift_toggle &
 spoofdpi &
