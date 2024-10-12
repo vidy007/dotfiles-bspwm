@@ -3,10 +3,10 @@ dir="$HOME/.config/rofi"
 theme='this'
 
 # Options
-shutdown=' | shutdown'
-reboot=' | reboot'
-lock=' | lock'
-suspend=' | suspend'
+shutdown=' | shutdown'
+reboot=' | reboot'
+lock=' | lock'
+suspend=' | sleep'
 yes='yes'
 no='no'
 

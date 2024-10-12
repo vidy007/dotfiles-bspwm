@@ -67,7 +67,7 @@ require("lazy").setup({
    { "nvim-lua/plenary.nvim" },
    { "BurntSushi/ripgrep" },
    { "sharkdp/fd" },
-   { "nvim-treesitter/nvim-treesitter" },
+   --{ "nvim-treesitter/nvim-treesitter" },
    { "brenoprata10/nvim-highlight-colors" },
    { "nvim-lualine/lualine.nvim" }
   },
