@@ -20,7 +20,7 @@ configuration {
     selected:       #EBDBB2FF;
     active:         #FE8019FF;
     urgent:         #FB4934FF;
-    font: "JetBrainsMono Nerd Font 10";
+    font: "Font Awesome 6 Free Solid 10";
 }
 /*****----- Main Window -----*****/
 window {
@@ -29,7 +29,7 @@ window {
     location:                    center;
     anchor:                      center;
     fullscreen:                  false;
-    width:                       140px;
+    width:                       152px;
     x-offset:                    0px;
     y-offset:                    0px;
 
@@ -37,7 +37,7 @@ window {
     enabled:                     true;
     margin:                      0px;
     padding:                     0px;
-    border:                      1px solid;
+    border:                      2px solid;
     border-radius:               0px;
     border-color:                @selected;
     cursor:                      "default";
@@ -60,8 +60,8 @@ mainbox {
 /*****----- Listview -----*****/
 listview {
     enabled:                     true;
-    columns:                     1;
-    lines:                       5;
+    columns:                     4;
+    lines:                       1;
     cycle:                       true;
     dynamic:                     true;
     scrollbar:                   false;

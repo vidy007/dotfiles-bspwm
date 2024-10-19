@@ -69,7 +69,8 @@ require("lazy").setup({
    { "sharkdp/fd" },
    --{ "nvim-treesitter/nvim-treesitter" },
    { "brenoprata10/nvim-highlight-colors" },
-   { "nvim-lualine/lualine.nvim" }
+   { "nvim-lualine/lualine.nvim" },
+   { "numToStr/Comment.nvim" }
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
